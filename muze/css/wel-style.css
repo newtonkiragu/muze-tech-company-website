@@ -125,6 +125,16 @@ a {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+textarea, input {
+    padding: 10px;
+    font-family: FontAwesome, 'Crimson Text', serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    width: 90%;
+    border: none;
+    margin: 10px;
 }
 
 
