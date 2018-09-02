@@ -1,12 +1,129 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 body {
+    background: #111111;
+    font-family: "metropolis-regular", sans-serif;
+}
+
+.nav {
+    display: block;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: 0px;
+    list-style: none;
+    position: fixed;
+    top: 80%;
     height: 100%;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.6);
 }
+
+.padding-0 {
+    padding: 0;
+    margin: 0;
 }
+
+.tabs {
+    height: 20vh;
+    width: 25vw;
+    color: #ffffff;
+    text-align: center;
 }
+
+.tab-pane {
+    padding-bottom: 20vh;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    min-height: 100vh;
 }
+
+.about-title {
+    font-size: 60px;
 }
+
+.item-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #00C0B0;
 }
+
+#about {
+    background-color: rgba(0,0,0,0.2);
+    color: #ffffff;
+    padding-top: 15vh;
+    max-height: 100vh;
 }
+
+    #about .fa {
+        padding: 5px;
+    }
+
+#about, #services, #contact, #team {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.btn {
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 10px 10px 10px lightgray;
+    margin: 10px;
+    background-color: #00C0B0;
+    color: #ffffff;
+}
+
+    .btn:hover {
+        font-size: large;
+    }
+
+.nav-titles {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .tabs {
+        width: 100%;
+    }
+
+    .nav {
+        top: 0%;
+        width: 15%;
+    }
+
+    .nav-titles {
+        display: block;
+    }
+
+    .tab-content {
+        width: 85%;
+        left: 15%;
+        position: relative;
+    }
+
+    .tab-pane {
+        padding-bottom: 10px;
+    }
+}
+
+.fa-circle {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #00C0B0;
+}
+
+    a:hover {
+        color: #00C0B0;
+    }
+
+.nav-icons {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 }
 
